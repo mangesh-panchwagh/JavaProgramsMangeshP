@@ -12,6 +12,7 @@ public class GetArray {
 		
 		int array[] = new int[n];
 		
+		System.out.println("Enter " + n + " array elements");
 		for (int i = 0; i < n; i++) {
 			array[i] = scan.nextInt();
 		}
