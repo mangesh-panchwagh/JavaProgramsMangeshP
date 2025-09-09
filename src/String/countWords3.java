@@ -9,6 +9,7 @@ public class CountWords3 {
 		Scanner scan = new Scanner(System.in);
 		String str = scan.nextLine();
 		
+		
 		String[] words = str.trim().split("\\s+");
 		
 		System.out.println("Number of words : " + words.length);

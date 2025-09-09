@@ -10,7 +10,7 @@ public class BonusSalary {
 		System.out.println("Enter years of experience : ");
 		double experienceYears = scan.nextDouble();
 
-		System.out.println("Enter year of Salary : ");
+		System.out.println("Enter your of Salary : ");
 		double salary = scan.nextDouble();
 
 		if (experienceYears < 1) {
