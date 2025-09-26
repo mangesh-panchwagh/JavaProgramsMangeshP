@@ -42,6 +42,6 @@ public class VowelsAndConsonants {
 		System.out.println("Total vowels: " + totalVowels);
         System.out.println("Unique vowels: " + uniqueVowels + " → Count: " + uniqueVowels.size());
         System.out.println("Total consonants: " + totalConsonents);
-        System.out.println("Unique consonants: " + totalConsonents + " → Count: " + uniqueConsonents.size());
+        System.out.println("Unique consonants: " + uniqueConsonents + " → Count: " + uniqueConsonents.size());
 	}
 }
