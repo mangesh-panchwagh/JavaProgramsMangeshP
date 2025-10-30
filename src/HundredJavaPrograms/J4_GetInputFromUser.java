@@ -13,7 +13,7 @@ public class J4_GetInputFromUser {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("Enter a String : ");
+		System.out.println("Enter a String : "); 
 		s = scan.nextLine();
 		System.out.println("You entered a String : " + s);
 		
