@@ -31,7 +31,7 @@ public class reverseWordFromArray2 {
 		}
 		// Print words array
 		for(String word : words) {
-			System.out.print(word);
+			System.out.println(word);
 		}
 	}
 	
