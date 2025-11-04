@@ -13,6 +13,7 @@ public class J12_NestedIfElse {
 		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter marks scored by you :");
+		System.out.println("Enter marks scored by you :");
 		marksObtained = scan.nextInt();
 		
 		if(marksObtained >= passingMarks) {
