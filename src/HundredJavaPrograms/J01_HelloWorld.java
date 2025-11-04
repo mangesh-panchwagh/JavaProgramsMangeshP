@@ -1,6 +1,6 @@
 package HundredJavaPrograms;
 
-public class J1_HelloWorld {
+public class J01_HelloWorld {
 
 	public static void main(String[] args) {
 		

@@ -1,7 +1,7 @@
 package HundredJavaPrograms;
 
 // 2. Print Integer in java 
-public class J2_Integers {
+public class J02_Integers {
 
 	public static void main(String[] args) {
 		int c; // declaring a variable

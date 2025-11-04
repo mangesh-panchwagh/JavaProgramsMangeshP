@@ -4,7 +4,7 @@ import java.math.BigInteger;
 import java.util.Scanner;
 
 // 8. Add two numbers program in java
-public class J8_AddNumbers {
+public class J08_AddNumbers {
 
 	public static void main(String[] args) {
 		

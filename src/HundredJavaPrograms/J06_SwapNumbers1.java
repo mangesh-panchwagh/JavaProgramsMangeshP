@@ -3,7 +3,7 @@ package HundredJavaPrograms;
 import java.util.Scanner;
 
 // 6. Swap two numbers using third number
-public class J6_SwapNumbers1 {
+public class J06_SwapNumbers1 {
 
 	public static void main(String[] args) {
 		

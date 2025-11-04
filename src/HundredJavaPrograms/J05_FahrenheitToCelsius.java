@@ -3,7 +3,7 @@ package HundredJavaPrograms;
 import java.util.Scanner;
 
 // 5. Convert J5_Fahrenheit to Celsius Program in java
-public class J5_FahrenheitToCelsius {
+public class J05_FahrenheitToCelsius {
 
 	public static void main(String[] args) {
 		

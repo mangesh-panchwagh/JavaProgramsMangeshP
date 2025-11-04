@@ -3,7 +3,7 @@ package HundredJavaPrograms;
 import java.util.Scanner;
 
 // 4. How to get User input using Scanner Program in java
-public class J4_GetInputFromUser {
+public class J04_GetInputFromUser {
 
 	public static void main(String[] args) {
 		

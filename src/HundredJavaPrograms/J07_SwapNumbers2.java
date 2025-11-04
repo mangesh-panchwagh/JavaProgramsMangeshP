@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 //7. Swap two numbers without using third number
 
-public class J7_SwapNumbers2 {
+public class J07_SwapNumbers2 {
 
 	public static void main(String[] args) {
 		

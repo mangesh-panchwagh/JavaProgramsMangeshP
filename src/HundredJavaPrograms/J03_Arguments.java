@@ -1,7 +1,7 @@
 package HundredJavaPrograms;
 
 // 3. Command Line Arguments
-public class J3_Arguments {
+public class J03_Arguments {
 
 	public static void main(String[] args) {
 		
