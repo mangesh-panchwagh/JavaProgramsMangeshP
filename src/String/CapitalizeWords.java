@@ -11,7 +11,7 @@ public class CapitalizeWords {
 		String str = scan.nextLine();
 		
 		String[] words = str.trim().split("\\s+");
-        StringBuilder sb = new StringBuilder();
+        StringBuilder capitalized = new StringBuilder();
 
 		
 		String result = "";
@@ -26,6 +26,17 @@ public class CapitalizeWords {
 		
 		result = result.trim();
 		System.out.println(result);
+		
+		for(String word: words) {
+			
+			if(word.length() > 0) {
+				capitalized.append(Character.toUpperCase(word.charAt(0)))
+						    .append(word.substring(1).toLowerCase())
+						    .append(" ");
+			}
+		}
+		
+		System.out.println(capitalized.toString().trim());
 		
 	}
 }
