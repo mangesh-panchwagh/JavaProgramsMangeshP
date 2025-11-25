@@ -12,7 +12,7 @@ public class Anagrams2 {
 		Scanner scan = new Scanner(System.in);
 		String s1 = scan.nextLine();
 
-		System.out.println("Enter String 2 for checking Angram : ");
+		System.out.println("Enter String 1 for checking Angram : ");
 		String s2 = scan.nextLine();
 
 		if (anagramCheck(s1, s2))
