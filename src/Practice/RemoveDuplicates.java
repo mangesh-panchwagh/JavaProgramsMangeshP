@@ -1,6 +1,7 @@
 package Practice;
 
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Scanner;
@@ -22,9 +23,17 @@ public class RemoveDuplicates {
 		Scanner scan = new Scanner(System.in);
 		String s = scan.nextLine();
 		
-		String[] stringArray = s.split("\\s+");
-		List<String> list2 = Arrays.asList(stringArray);
-		Set<String> set2 = new LinkedHashSet<String>(list2);
-		System.out.println(set2);
+		StringBuffer result = new StringBuffer();
+		Set<Character> set2 = new HashSet<>();
+		
+		for(char c : s.toCharArray()) {
+			if(!set2.contains(c)) {
+				set2.add(c);
+				result.append(c);
+			}
+		}
+		System.out.println("String after removing duplicates: " + result.toString());
+		
+		
 	}
 }
