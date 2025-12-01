@@ -2,7 +2,7 @@ package String;
 
 import java.util.Scanner;
 
-public class CountWords3 {
+public class countWords3 {
 
 	public static void main(String[] args) {
 		System.out.println("Enter string for word count");
