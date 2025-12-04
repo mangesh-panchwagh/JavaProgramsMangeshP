@@ -36,3 +36,25 @@ public class CharCountOccurance2 {
 		
 	}
 }
+
+/*
+//String str = "test12pop90java989pyt"
+// output = "tset12popavaj989typ"
+
+//{2,8,1,10,5}
+//maximum difference between two numbers
+int[] array = {2,8,1,10,5};
+int max = 0;
+for(int i = 0; i< array.length;i++){
+    for(int j = i+1; j< array.length;j++){
+        int temp = array[j] - array[i];
+        if( temp > max){
+            max = temp;
+        }
+    }
+}
+8-2
+1-2
+10-2
+System.out.println(max);
+*/
